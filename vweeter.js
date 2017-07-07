@@ -28,7 +28,7 @@ Vweeter = () => {
 
     var http = require('https');
     setInterval(function(){
-        isDevMode == true ? http.get('https://vweeterdev.herokuapp.com/') : http.get('https://vweeter.herokuapp.com/');
+        isDevMode == true ? http.get('https://rapbattlelivedev.herokuapp.com/') : http.get('https://rapbattlelive.herokuapp.com/');
     },300000);
 
     AWS.config.update({
